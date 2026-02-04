@@ -1,0 +1,30 @@
+.specs-table {
+  margin-top: 32px;
+}
+
+.specs-table h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.specs-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.specs-table th,
+.specs-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.specs-table th {
+  width: 30%;
+  color: #374151;
+  font-weight: 500;
+}
+
+.specs-table td {
+  color: #111827;
+}

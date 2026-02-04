@@ -1,0 +1,14 @@
+.products-page {
+  padding: 60px 5%;
+}
+
+.products-page select {
+  margin: 20px 0;
+  padding: 8px;
+}
+
+.products-page .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}

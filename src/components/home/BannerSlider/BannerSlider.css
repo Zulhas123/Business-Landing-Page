@@ -1,0 +1,32 @@
+.banner-slider {
+  padding: 50px 5%;
+}
+
+.banner {
+  height: 280px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.banner-overlay h2 {
+  font-size: 36px;
+}
+
+.banner-overlay p {
+  font-size: 18px;
+  margin-top: 10px;
+}

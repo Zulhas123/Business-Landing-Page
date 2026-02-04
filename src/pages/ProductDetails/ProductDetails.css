@@ -1,0 +1,38 @@
+.product-details {
+  padding: 60px 5%;
+}
+
+.details-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.product-info h1 {
+  font-size: 28px;
+}
+
+.price {
+  font-size: 24px;
+  color: #4f46e5;
+}
+
+.price span {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 16px;
+}
+
+.stock {
+  margin: 10px 0;
+  color: green;
+}
+
+.add-cart {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
